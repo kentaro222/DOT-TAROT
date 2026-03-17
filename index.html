@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+    <head>
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js');
+        }
+    </script>
+</head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOT TAROT - ドット絵タロット占い＆図鑑 -</title>
@@ -154,7 +164,7 @@
         .card-sprite {
             width: 160px;
             height: 240px;
-            background-image: url('タロット16.png');
+            background-image: url('Tarots16.png');
             background-size: 960px 960px;
             background-position: -640px -720px; /* 裏面 */
             image-rendering: pixelated;
@@ -197,7 +207,7 @@
         .gallery-thumb {
             width: 80px;
             height: 120px;
-            background-image: url('タロット16.png');
+            background-image: url('Tarots16.png');
             background-size: 480px 480px; /* 160x240の半分のサイズで計算 */
             image-rendering: pixelated;
             border: 2px solid #333;
