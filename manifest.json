@@ -1,7 +1,7 @@
 {
-  "name": "DOT TAROT",
-  "short_name": "DOT TAROT",
-  "description": "ドット絵で占うタロット占い",
+  "name": "PIXEL TAROT",
+  "short_name": "PIXEL TAROT",
+  "description": "ピクセルアートで占うタロット占い",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#000000",
